@@ -1,0 +1,681 @@
+/* CONFIGS BASICAS */
+
+body {
+    margin: 0;
+    background-color: #F7F5F2;
+}
+
+:root {
+   --marrom: #69524B;
+   --marromescuro: #3f322c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* STYLE DO CABECALHO */
+
+.nav {
+    list-style-type: none;
+    margin: 0px 0px -10px;
+    padding: 40px 16px;
+    overflow: hidden;
+    background-color: var(--marrom);
+    
+}
+
+.navbotao {
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbotao li a {
+    display: inline;
+    color: white;
+    align-items: center;
+    float: left;
+    padding: 10px;
+    width: 25%
+}
+
+.navbotao a:hover {
+    background-color: var(--marromescuro);
+}
+
+
+/* MEDIA SCREEN DO CABECALHO */
+
+@media screen and (max-width: 1776px) {
+
+    .navbotao {
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .navbotao li a {
+        display: inline;
+        float: left;
+        padding: 10px;
+        width: 25%;
+        margin-top: 10px;
+    }
+
+    .navbotao a:hover {
+        background-color: var(--marromescuro);
+        box-sizing: border-box;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .navbotao {
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .navbotao li a {
+        display: inline;
+        float: left;
+        padding: 10px;
+        width: 25%;
+        margin-top: 10px;
+    }
+
+    .navbotao a:hover {
+        background-color: var(--marromescuro);
+        box-sizing: border-box;
+        width: 25%;
+    }
+}
+
+
+/* FOTO DO CAFE */
+
+.imgtopo {
+    text-align: center;
+    margin-top: 10px; 
+    overflow: hidden;
+}
+
+.cafeimg {
+    width: 100%;
+    height: 1000px; 
+  
+}
+
+/* MEDIA SCREEN DA FOTO DO CAFE*/
+
+@media screen and (max-width: 1776px)  {
+    .imgtopo {
+        text-align: center;
+        margin-top: 10px;
+        position: relative;
+    }
+    
+    .cafeimg {
+        width: 100%;
+        height: 600px;  
+    }
+}
+
+@media screen and (max-width: 758px)  {
+    .imgtopo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .cafeimg {
+        width: 100%;
+        height: 315px;  
+    }
+}
+
+/* LOGO DO CAFE */
+
+.logo {
+    text-align: center;
+}
+
+.imglogo {
+    top: -850px;
+    position: relative;
+}
+
+@media screen and (max-width: 1776px)  {
+    .logo {
+        text-align: center;
+    }
+    
+    .imglogo {
+        top: -565px;
+        width: 30%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .logo {
+        text-align: center;
+    }
+    
+    .imglogo {
+        top: -285px;
+        width: 35%;
+        position: relative;
+    }
+}
+
+/* ABOUT US DO CAFE */
+
+.aboutus {
+    font-family: Inconsolata;
+    text-align: center;
+    margin-top: -570px;
+    border: 0px solid var(--marrom);
+    background-color: var(--marrom);
+    color: white;
+    margin-left: 40%;
+    width: 20%;
+}
+
+@media screen and (max-width: 1776px)  {
+    .aboutus {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: -450px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .aboutus {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: -240px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
+/* TEXTO DO ABOUT US DO CAFE */
+
+.aboutustext {
+    font-family: Inconsolata;
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 55px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1776px)  {
+    .aboutustext {
+        font-family: Inconsolata;
+        text-align: left;
+        width: 70%;
+        margin-left: 17%;
+        margin-top: 40px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .aboutustext {
+        font-family: Inconsolata;
+        text-align: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 40px;
+        line-height: 30px;
+    }
+}
+
+/* VERSCICULO DE MATEUS */
+
+.versomt {
+    border-left: 10px solid #CCCCCC;
+    background-color: #F1F1F1;
+    margin-top: 20px;
+}
+
+.textverso {
+    margin-left: 5px;
+    font-family: Inconsolata;
+    font-style: italic;
+    font-size: medium;
+}
+
+/* FOTO GRAOS DE CAFE */
+
+.imgmeio {
+    margin-top: 70px;
+    text-align: center;
+}
+.graos {
+    width: 40%;
+    height: 500px;
+}
+
+@media screen and (max-width: 1776px)  {
+    .imgmeio {
+        margin-top: 60px;
+        margin-left: 45px;
+    
+    }
+    .graos {
+        width: 80%;
+        height: 450px;
+        
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .imgmeio {
+        margin-top: 50px;
+        margin-left: 12px;
+    
+    }
+    .graos {
+        width: 90%;
+        height: 250px;
+        
+    }
+}
+
+/* HORARIO DE FUNCIONAMENTO */
+
+.horarios {
+    font-family: Inconsolata;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1776px)  {
+    .horarios {
+        font-family: Inconsolata;
+        margin-left: 17%;
+        margin-top: 30px;
+    }
+}   
+
+@media screen and (max-width: 758px) {
+    .horarios {
+        font-family: Inconsolata;
+        margin-left: 11%;
+    }
+}
+
+/* MENU */
+
+.themenu {
+    font-family: Inconsolata;
+    text-align: center;
+    margin-top: 85px;
+    border: 0px solid var(--marrom);
+    background-color: var(--marrom);
+    color: white;
+    margin-left: 40%;
+    width: 20%;   
+}
+
+@media screen and (max-width: 1776px)  {
+    .themenu {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: 60px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .themenu {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: 70px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
+
+/*  BOX DO MENU */
+
+.boxmenu {
+    box-sizing: border-box;
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 55px;
+    height: 800px;
+    margin-bottom: 50px;
+    background-color: #F7F5F2;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+@media screen and (max-width: 1776px)  {
+    .boxmenu {
+        width: 55%;
+        margin-left: 23%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 758px)  {
+    .boxmenu {
+        width: 75%;
+        height: 550px;
+        margin-left: 13%;
+        margin-top: 50px;
+    }
+}
+
+/* FOTO EMBAIXO DO MENU */
+
+.imgperto {
+    text-align: center;
+}
+
+.fotodeperto {
+    width: 40%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1776px)  {
+    .imgperto {
+        margin-top: 60px;
+        margin-left: 45px;
+    
+    }
+    .fotodeperto {
+        width: 80%;
+        height: 470px;
+        
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .imgperto {
+        margin-top: 50px;
+        margin-left: 12px;
+    
+    }
+    .fotodeperto {
+        width: 90%;
+        height: 250px;
+        
+    }
+}
+
+/* LOCALIZACAO DO CAFE */
+
+.where {
+    font-family: Inconsolata;
+    text-align: center;
+    margin-top: 90px;
+    border: 0px solid var(--marrom);
+    background-color: var(--marrom);
+    color: white;
+    margin-left: 40%;
+    width: 20%;
+}
+
+@media screen and (max-width: 1776px)  {
+    .where {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: 70px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .where {
+        font-family: Inconsolata;
+        text-align: center;
+        margin-top: 50px;
+        border: 0px solid var(--marrom);
+        background-color: var(--marrom);
+        color: white;
+        margin-left: 30%;
+        width: 40%;
+    }
+}
+
+/* IFRAME */
+
+.location {
+    text-align: center;
+    margin-top: 35px
+}
+
+.iframe {
+    background-color: #F7F5F2;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.5);
+    width: 37.5%;
+    height: 450px;
+}
+
+@media screen and (max-width: 1776px) {
+    .iframe {
+        background-color: #F7F5F2;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.5);
+        width: 65%;
+        height: 450px;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .iframe {
+        background-color: #F7F5F2;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.5);
+        width: 80%;
+        height:300px;
+        margin-left: 1%;
+    }
+}
+
+/* AVISO */
+
+#atencao {
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 5%;
+    padding-left: 10px;
+    font-family: Inconsolata;
+    margin-left: 31.3%;
+
+}
+.atencao {
+    margin-left: 31.3%;    
+    font-family: Inconsolata;
+
+}
+
+.atencaotext {
+    width: 55%;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1776px) {
+    #atencao {
+        padding: 0px;
+        background-color: black;
+        color: white;
+        width: 10%;
+        padding-left: 10px;
+        font-family: Inconsolata;
+        margin-left: 18%;
+    
+    }
+    .atencao {
+        margin-left: 18%;    
+        font-family: Inconsolata;
+    
+    }
+    
+    .atencaotext {
+        width: 70%;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    #atencao {
+        padding: 0px;
+        background-color: black;
+        color: white;
+        width: 20%;
+        padding-left: 10px;
+        font-family: Inconsolata;
+        margin-left: 10.5%;
+    
+    }
+    .atencao {
+        margin-left: 10.5%;    
+        font-family: Inconsolata;
+    
+    }
+    
+    .atencaotext {
+        width: 93%;
+        line-height: 30px;
+    }
+}
+
+/* FORMULARIO */
+
+.formname { 
+    margin-left: 31.1%;
+    margin-top: 25px;
+}
+
+.name {
+    width: 55%;
+    height: 60px;
+}
+
+.cpf {
+    width: 55%;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.date {
+    width: 55%;
+    height: 60px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1776px) {
+    .formname { 
+    margin-left: 31.1%;
+    margin-top: 20px;
+    margin-left: 17.8%;
+
+    }
+
+    .name {
+    width: 80%;
+    height: 60px;
+    }
+
+    .cpf {
+    width: 80%;
+    height: 60px;
+    margin-top: 25px;
+    }
+
+    .date {
+    width: 80%;
+    height: 60px;
+    margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .formname { 
+        margin-left: 31.1%;
+        margin-top: 20px;
+        margin-left: 11%;
+    
+    }
+    
+        .name {
+        width: 89.3%;
+        height: 60px;
+    }
+    
+        .cpf {
+        width: 89.3%;
+        height: 60px;
+        margin-top: 25px;
+    }
+    
+        .date {
+        width: 89.3%;
+        height: 60px;
+        margin-top: 25px;
+    }
+}
+
+
+/* BOTAO SEND MESSAGE */
+.sendbottom {
+    padding: 20px;
+    margin-top: 12px;
+    color: #F7F5F2;
+    background-color: var(--marrom);
+}
+
+.sendbottom:hover {
+    background-color: var(--marromescuro);
+}
+
+@media screen and (max-width: 758px) {
+    .sendbottom {
+        padding: 20px;
+        margin-top: 12px;
+        color: #F7F5F2;
+        background-color: var(--marrom);
+    }
+    
+    .sendbottom:hover {
+        background-color: var(--marromescuro);
+    }
+}
+
+footer {
+    background-color: var(--marrom);
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.by {
+    font-family: Inconsolata;
+    text-align: center;
+    padding-top: 65px;
+    color: #F7F5F2;
+    font-size: 20px;
+}
